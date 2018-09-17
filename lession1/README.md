@@ -6,7 +6,7 @@
 
 # 单例模式
 
-`
+```
   var Single = (function(){
     var instance;
     /*这里定义单例代码*/
@@ -31,4 +31,4 @@
   })();
   /*调用公有的方法来获取实例:*/
   Single.getIntance().publicMethod() //hello world
-`
+```
